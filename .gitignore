@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Data files
+data/raw/
+data/*.csv
+data/*.xlsx
+data/*.parquet
+
+# System files
+.DS_Store
+
+# Tableau temporary files
+*.twbr
