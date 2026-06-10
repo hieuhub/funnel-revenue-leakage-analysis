@@ -3,7 +3,7 @@
 ## Dataset
 GA4 Obfuscated Sample E-commerce Dataset
 
-## Analysis Window
+## Analysis Time Window
 2020-11-01 to 2021-01-31
 
 ## Dataset Size
@@ -12,15 +12,10 @@ GA4 Obfuscated Sample E-commerce Dataset
 
 ## Funnel Events
 
-| Event Name | Event Count |
-|---|---:|
-| view_item | 386,068 |
-| add_to_cart | 58,543 |
-| begin_checkout | 38,757 |
-| add_shipping_info | 19,722 |
-| add_payment_info | 13,899 |
-| purchase | 5,692 |
+Event Name : Event Count
 
-
-## Note
-The counts above are raw event counts, not unique users or sessions. Final funnel metrics will be calculated using user-level and session-level logic.
+view_item: 386,068
+add_to_cart: 58,543
+begin_checkout: 38,757
+add_shipping_info: 13,899
+purchase: 5,692

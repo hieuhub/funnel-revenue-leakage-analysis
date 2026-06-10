@@ -2,8 +2,6 @@
 
 ## Primary Funnel
 
-The primary funnel measures the main e-commerce journey:
-
 1. View Item
 2. Add to Cart
 3. Begin Checkout
@@ -20,7 +18,7 @@ Event mapping:
 
 ## Checkout Friction Funnel
 
-The checkout friction funnel measures where users drop off after starting checkout:
+Measuring where users drop off after starting checkout:
 
 1. Begin Checkout
 2. Add Shipping Info
@@ -36,11 +34,9 @@ Event mapping:
 | Add Payment Info | add_payment_info |
 | Purchase | purchase |
 
-## Planned Measurement Logic
+## Logic
 
-This project will calculate both:
+Calculating both: 
 
 - User-level funnel conversion
 - Session-level funnel conversion
-
-Raw event counts will not be used as final conversion metrics because a single user or session can trigger the same event multiple times.
