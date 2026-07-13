@@ -47,7 +47,7 @@ SELECT
   ) AS session_key,
 
   -- Page URL where the event happened.
-  -- Useful for optional landing page or product page analysis later.
+  -- For maybe product page analysis later.
   (
     SELECT ep.value.string_value
     FROM UNNEST(event_params) AS ep
@@ -56,7 +56,7 @@ SELECT
   ) AS page_location,
 
 
-  -- Device and platform fields for segmentation.
+  -- Device and platform fields.
   platform,
   LOWER(device.category) AS device_category,
 
@@ -65,7 +65,7 @@ SELECT
   LOWER(traffic_source.medium) AS traffic_medium,
   LOWER(traffic_source.name) AS traffic_campaign,
 
-  -- Simple traffic channel grouping for later dashboard use.
+  -- Traffic channel grouping for dashboard use.
   CASE
     WHEN LOWER(traffic_source.source) = 'google'
          AND LOWER(traffic_source.medium) = 'organic'
