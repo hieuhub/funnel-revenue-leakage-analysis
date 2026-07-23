@@ -1,0 +1,9 @@
+check_name,check_area,check_value,check_status,check_description
+reliable_categories_available,category_performance,4,PASS,Category performance should include at least one reliable product category.
+friction_scores_between_0_and_100,friction_score,0,PASS,Friction scores should stay between 0 and 100 for dashboard interpretation.
+funnel_counts_do_not_increase,funnel_summary,0,PASS,Each funnel step should have less than or equal to the previous step count.
+funnel_rates_between_0_and_1,funnel_summary,0,PASS,Funnel conversion and drop-off rates should stay within valid percentage bounds.
+estimated_leakage_not_negative,revenue_leakage,0,PASS,Estimated revenue leakage should never be negative.
+revenue_baseline_valid,revenue_leakage,0,PASS,"Revenue leakage requires positive transaction count, revenue, and average order value."
+key_funnel_events_no_null_sessions,staging,0,PASS,Key funnel events should have valid session keys for session-level analysis.
+stg_events_not_empty,staging,4295584,PASS,stg_events should contain event-level GA4 data.

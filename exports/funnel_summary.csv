@@ -1,0 +1,13 @@
+funnel_type,unit_type,step_order,funnel_step,reached_count,previous_step_count,step_conversion_rate,overall_conversion_rate,dropoff_count,dropoff_rate
+Checkout Friction Funnel,Sessions,1,Begin Checkout,11106,,1,1,0,0
+Checkout Friction Funnel,Sessions,2,Add Shipping Info,7081,11106,0.63758328831262379,0.63758328831262379,4025,0.36241671168737621
+Checkout Friction Funnel,Sessions,3,Add Payment Info,4677,7081,0.66049992938850444,0.42112371690977851,2404,0.33950007061149556
+Checkout Friction Funnel,Sessions,4,Purchase,3291,4677,0.70365618986529832,0.29632631010264721,1386,0.29634381013470168
+Session-Level Main Funnel,Sessions,1,View Item,77020,,1,1,0,0
+Session-Level Main Funnel,Sessions,2,Add to Cart,15167,77020,0.19692287717475981,0.19692287717475981,61853,0.80307712282524024
+Session-Level Main Funnel,Sessions,3,Begin Checkout,5416,15167,0.35709105294389132,0.070319397559075569,9751,0.64290894705610868
+Session-Level Main Funnel,Sessions,4,Purchase,2834,5416,0.52326440177252587,0.036795637496754088,2582,0.47673559822747413
+User-Level Main Funnel,Users,1,View Item,61252,,1,1,0,0
+User-Level Main Funnel,Users,2,Add to Cart,12538,61252,0.20469535688630575,0.20469535688630575,48714,0.79530464311369431
+User-Level Main Funnel,Users,3,Begin Checkout,5034,12538,0.40149944169724039,0.082185071507869134,7504,0.59850055830275961
+User-Level Main Funnel,Users,4,Purchase,2856,5034,0.567342073897497,0.046627048912688568,2178,0.432657926102503
